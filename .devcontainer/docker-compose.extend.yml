@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+    app:
+        environment:
+            EDITOR_VSCODE: 1
+        volumes:
+            - .:/workspace
+            - /workspace/.parcel-cache
+            - /workspace/__pycache__
+            - /workspace/.vite
+            - /workspace/.yarn/unplugged
+            - app-assets:/assets
+            # - datatracker-vscode-ext:/root/.vscode-server/extensions
+        # Runs app on the same network as the database container, allows "forwardPorts" in devcontainer.json function.
+        network_mode: service:db
+
+volumes:
+    datatracker-vscode-ext:
