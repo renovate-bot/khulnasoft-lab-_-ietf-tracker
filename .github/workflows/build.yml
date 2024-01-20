@@ -65,7 +65,7 @@ jobs:
     - name: Get Next Version
       if: ${{ github.ref_name == 'release' }}
       id: semver
-      uses: ietf-tools/semver-action@v1
+      uses: khulnasoft-lab/ietf-tools/semver-action@v1
       with:
         token: ${{ github.token }}
         branch: release
@@ -189,7 +189,7 @@ jobs:
         AWS_ENDPOINT_URL: ${{ secrets.CF_R2_ENDPOINT }}
       run: |
         echo "Collecting statics..."
-        docker run --rm --name collectstatics -v $(pwd):/workspace ghcr.io/ietf-tools/datatracker-app-base:latest sh dev/deploy/collectstatics.sh
+        docker run --rm --name collectstatics -v $(pwd):/workspace ghcr.io/khulnasoft-lab/ietf-tools/datatracker-app-base:latest sh dev/deploy/collectstatics.sh
         echo "Pushing statics..."
         cd static
         aws s3 sync . s3://static/dt/$PKG_VERSION --only-show-errors
@@ -406,8 +406,8 @@ jobs:
       working-directory: /a/docker/datatracker
       run: |
         echo "Pulling latest docker images..."
-        docker image tag ghcr.io/ietf-tools/datatracker-celery:latest datatracker-celery-fallback
-        docker image tag ghcr.io/ietf-tools/datatracker-mq:latest datatracker-mq-fallback
+        docker image tag ghcr.io/khulnasoft-lab/ietf-tools/datatracker-celery:latest datatracker-celery-fallback
+        docker image tag ghcr.io/khulnasoft-lab/ietf-tools/datatracker-mq:latest datatracker-mq-fallback
         docker-compose pull
         # echo "Shutting down containers..."
         # docker-compose down -t 300
