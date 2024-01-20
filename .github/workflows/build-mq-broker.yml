@@ -45,5 +45,5 @@ jobs:
         push: true
         build-args: RABBITMQ_VERSION=${{ env.RABBITMQ_VERSION }}
         tags: |
-          ghcr.io/ietf-tools/datatracker-mq:${{ env.RABBITMQ_VERSION }}
-          ghcr.io/ietf-tools/datatracker-mq:latest
+          ghcr.io/khulnasoft-lab/ietf-tools/datatracker-mq:${{ env.RABBITMQ_VERSION }}
+          ghcr.io/khulnasoft-lab/ietf-tools/datatracker-mq:latest
