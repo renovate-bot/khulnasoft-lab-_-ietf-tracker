@@ -84,7 +84,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pinia", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:2.1.7"],\
             ["pinia-plugin-persist", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.0.0"],\
             ["pug", "npm:3.0.2"],\
-            ["sass", "npm:1.69.7"],\
+            ["sass", "npm:1.70.0"],\
             ["seedrandom", "npm:3.0.5"],\
             ["select2", "npm:4.1.0-rc.0"],\
             ["select2-bootstrap-5-theme", "npm:1.3.0"],\
@@ -8225,7 +8225,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pinia", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:2.1.7"],\
             ["pinia-plugin-persist", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.0.0"],\
             ["pug", "npm:3.0.2"],\
-            ["sass", "npm:1.69.7"],\
+            ["sass", "npm:1.70.0"],\
             ["seedrandom", "npm:3.0.5"],\
             ["select2", "npm:4.1.0-rc.0"],\
             ["select2-bootstrap-5-theme", "npm:1.3.0"],\
@@ -8322,10 +8322,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:1.69.7", {\
-          "packageLocation": "./.yarn/cache/sass-npm-1.69.7-ac434a094c-c67cd32b69.zip/node_modules/sass/",\
+        ["npm:1.70.0", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.70.0-153257249c-fd1b622cf9.zip/node_modules/sass/",\
           "packageDependencies": [\
-            ["sass", "npm:1.69.7"],\
+            ["sass", "npm:1.70.0"],\
             ["chokidar", "npm:3.5.3"],\
             ["immutable", "npm:4.0.0"],\
             ["source-map-js", "npm:1.0.2"]\
@@ -9117,7 +9117,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lightningcss", null],\
             ["postcss", "npm:8.4.33"],\
             ["rollup", "npm:3.29.4"],\
-            ["sass", "npm:1.69.7"],\
+            ["sass", "npm:1.70.0"],\
             ["stylus", null],\
             ["sugarss", null],\
             ["terser", null]\
