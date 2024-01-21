@@ -2629,10 +2629,10 @@ browserlist@latest:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001576":
-  version: 1.0.30001576
-  resolution: "caniuse-lite@npm:1.0.30001576"
-  checksum: b8b332675fe703d5e57b02df5f100345f2a3796c537a42422f5bfc82d3256b8bad3f4e2788553656d2650006d13a4b5db99725e2a9462cc0c8035ba494ba1857
+"caniuse-lite@npm:1.0.30001579":
+  version: 1.0.30001579
+  resolution: "caniuse-lite@npm:1.0.30001579"
+  checksum: 7539dcff74d2243a30c428393dc690c87fa34d7da36434731853e9bcfe783757763b2971f5cc878e25242a93e184e53f167d11bd74955af956579f7af71cc764
   languageName: node
   linkType: hard
 
@@ -6988,7 +6988,7 @@ browserlist@latest:
     browser-fs-access: 0.35.0
     browserlist: latest
     c8: 9.1.0
-    caniuse-lite: 1.0.30001576
+    caniuse-lite: 1.0.30001579
     d3: 7.8.5
     eslint: 8.56.0
     eslint-config-standard: 17.1.0
